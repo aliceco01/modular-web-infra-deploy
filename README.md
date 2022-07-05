@@ -1,4 +1,4 @@
-# movie-posters
+
 
 # movie posters
 
@@ -33,3 +33,7 @@ So overall on our vpc we had 2 public subnets on which we had the nat gateways (
 And 2 private subnets that have HTTP access through security groups on the private subnets we had an EC2 web instance
 
 And on the ec2 we used docker containers, to isolate frontend backend and dependencies and allow for scailing and automation with terraform.
+
+
+![image](https://user-images.githubusercontent.com/83873276/177345745-aa651940-a84c-4e2c-a7e5-cd0d24452c50.png)
+
