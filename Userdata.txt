@@ -1,19 +1,24 @@
 #!/bin/bash
 
 #Updating the instance
+
 sudo yum update -y
 
 #Installing git
+
 sudo yum install git -y
 
 #Cloning the git repository
-cd /home/ec2-user/
-sudo git clone https://github.com/Shaked98/WebApp.git
+
+cd /home/ec2-user/movie-posters
+sudo git clone https://github.com/shirlco/movie-posters
 
 #changing dir ownership
-sudo chown ec2-user /home/ec2-user/WebApp
+
+sudo chown ec2-user /home/ec2-user/movie-posters
 
 #Installing docker in EC2
+
 sudo yum install docker -y
 
 #Installing docker-compose, give permissions then start and enable it
@@ -24,7 +29,9 @@ sudo systemctl enable containerd.service
 sudo service docker start
 
 #finally, build and run the containers.
+
+
 sudo echo KEY = "'<insert tmdb api key here>'" > /home/ec2-user/WebApp/config.py
-cd /home/ec2-user/WebApp/
+cd /home/ec2-user/movie-posters/
 sudo docker-compose build
 sudo docker-compose up
