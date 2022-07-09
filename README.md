@@ -34,7 +34,7 @@ This web application allows you to search download to your personal device any m
 
 # Architecture:
 
-![architecture](https://user-images.githubusercontent.com/82024584/171023006-d66d03b9-9aa2-4ee4-b41f-93d71491816d.PNG)
+![architecture]()
 
 # Demo:
 
