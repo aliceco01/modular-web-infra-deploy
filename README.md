@@ -3,21 +3,15 @@
 
 This web application allows you to search download to your personal device any movie poster you like.
 
+# Technologies Used 
+
+ - Python Flask 
+ - MongoDB 
+ - aws cloud
+ - terraform
+ - docker
 
 
-The Web App asks the user for a movie to search, after taking the input from the user the app displays all the movie names similar to what the user searched and their corresponding poster images.
-
-Then the user gets the choice to select posters he wants to download.
-
-Python Flask Library provides the routing, HTML provides the Frontend UI.
-
-MongoDB is the local BackEnd Database.
-
-AWS is the cloud provider where the Web App is hosted on.
-
-Docker Containers were used on EC2 to isolate the frontend and backend apps.
-
-Terraform was used to initialize and bring the entire architecture up in AWS Cloud.
 
 # Prerequisites to make it work
 
