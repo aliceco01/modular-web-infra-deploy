@@ -1,11 +1,9 @@
 
-# Project: Web App using Python + Flask + MongoDB + Docker + AWS Cloud
+# Movie Posters Application
 
-# Summary:
+This web application allows you to search download to your personal device any movie poster you like.
 
-The Project is a Web App.
 
-The Web App gives the users the option to search posters and having the option to download them.
 
 The Web App asks the user for a movie to search, after taking the input from the user the app displays all the movie names similar to what the user searched and their corresponding poster images.
 
