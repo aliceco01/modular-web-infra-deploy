@@ -5,13 +5,14 @@ This web application allows you to search download to your personal device any m
 
 # Technologies Used 
 
+ - Amazon Web Services 
  - Python Flask 
  - MongoDB 
- - aws cloud
- - terraform
- - docker
+ - Terraform HashiCorp
+ - Docker
 
 
+![image](https://user-images.githubusercontent.com/83873276/178243696-faa26d74-aefb-41a8-afbc-3dfcaa168431.png)
 
 # Prerequisites to make it work
 
@@ -19,7 +20,6 @@ This web application allows you to search download to your personal device any m
 2) navigate to [https://www.themoviedb.org/settings/api](https://www.themoviedb.org/settings/api) 
 
 
-![image](https://user-images.githubusercontent.com/82024584/175266047-08932034-ba51-4b0d-80f6-f449da33820f.png)
 
 3) generate an API Key
 4) ![image](https://user-images.githubusercontent.com/82024584/175267304-7561208b-8804-4ed8-a82e-2dba984a0f25.png)
@@ -32,13 +32,9 @@ This web application allows you to search download to your personal device any m
 8) At this point all is left to do is to run the commands - terraform init, terraform plan, terraform apply. 
 9) When done, use terraform destroy.
 
-# Architecture:
 
-![architecture]()
 
-# Demo:
 
-![ProjectDemoGIF800](https://user-images.githubusercontent.com/82024584/168753125-3f54a942-a2f2-4795-bf0e-0eb313374416.gif)
 
 # Flow Chart:
 
