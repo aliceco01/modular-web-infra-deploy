@@ -1,5 +1,5 @@
 
-# Movie Posters Application
+# Automated Deployment Framework for Scalable Two-Tier Web Architectures
 
 This web application allows you to search download to your personal device any movie poster you like.
 
